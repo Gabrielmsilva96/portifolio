@@ -1,0 +1,621 @@
+@charset "UTF-8";
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+body{
+
+}
+
+.navbar{
+    height: 100px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#nav-principal a, .navbar-brand{
+    color: white;
+}
+
+#nav-principal a:hover{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#nav-principal ul li{
+    margin-left: 40px;
+}
+
+button{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    font-size: 1.6em;
+}
+
+.navbar-nav{
+    margin-top: 85px;
+    float: right;
+}
+
+.navbar-nav li a{
+    text-align: center;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 0;
+}
+
+
+/***********************QUEM SOU EU***************/
+
+.redes{
+    margin-top: 60px;
+    
+}
+
+.redes a{
+    color: white;
+}
+
+.redes a:hover{
+    color: #A69A95 ;
+}
+
+.redes li{
+    margin-bottom: 20px;
+}
+
+.name{
+    margin-top: 40px;
+    border-left: 5px solid rgb(245, 117, 32);
+    padding-left: 20px;
+    color: white;
+}
+
+.name h1{
+    padding-top: 20px;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.name span{
+    color: rgb(245, 117, 32);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#quem-sou-eu p {
+    color: #A69A95;
+    margin-left: 535px;
+    width: 658px;
+}
+
+/**************************HABILIDADES*************/
+
+.titulo{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.titulo h3{
+    width: 150px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid white;
+    margin: 0 auto;
+}
+
+
+.skin{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.tipo {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.tipo h3{
+    margin-bottom: 20px;
+}
+
+
+/************PROJETOS***********/
+
+.titulo{
+    margin-bottom: 60px;
+}
+
+.img{
+    text-align: center;
+}
+
+.nav-link img {
+    opacity: 0.5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+.nav-link img:hover {
+    opacity: 1;
+}
+
+.troca-img img{
+    width: 800px;
+    border-radius: 10px;
+}
+
+/**********CONTATOS*************/
+
+#contato{
+    border: 3px solid rgb(245, 117, 32);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.tituloContato {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.tituloContato h3{
+    width: 150px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid white;
+    margin: 0 auto;
+}
+
+.lista-contatos ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.lista-contatos li{
+    margin-bottom: 10px;
+}
+
+.lista-contatos li:hover{
+    background-color: rgb(136, 79, 39);
+}
+
+.img-perfil img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.meu-curriculo{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.meu-curriculo h4{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.link{
+    text-align: center;
+    padding: 20px;
+}
+
+.link a{
+    border:1px solid rgb(245, 117, 32); ;
+    background-color: rgba(0, 0, 0, 0.123);
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.link a:hover{
+    background-color: rgba(0, 0, 0, 0.582);
+    text-decoration: none;
+    color: white;
+}
+
+/*****************FOOTER************/
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #754D32; 
+}
+
+footer p{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 1.2em;
+}
+
+/**********************Navegação responsiva***********/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .name h1 {
+        font-size: 2.5em;
+    }
+
+    .name span {
+        font-size: 2.5em ;
+    }
+
+    .name{
+        margin-left: 50px;
+    }
+
+    #quem-sou-eu p{
+        margin-top: 20px;
+        width: 200px;
+        font-size: 0.7em ;
+        font-weight: bold;
+        margin-left: 207px;
+    }
+
+    
+
+    .redes ul{
+        width: 220px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .redes li{
+        display: inline-flex;
+    }
+
+    /*******HABILIDADES*******/
+    .titulo h3{
+        font-size: 1.2em;
+    }
+
+    .tipo h3{
+        font-size: 1.2em;
+    }
+
+    .tipo img{
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    /*********PROJETOS******/
+    .titulo p{
+        font-size: 0.8em;
+    }
+
+    .imagens ul{
+        display: flex;
+        
+    }
+
+    .imagens{        
+    }
+
+    .imagens li img{
+        width: 80px;
+        margin-left: -15px;
+        margin-right: 0px;
+    }
+
+    .imagens img{
+        border-radius: 5px;
+        margin-left: -10px;
+    }
+
+    #trocarimg{
+        width: 85%;
+        margin-left: 35px;
+    }
+
+    /******CONTATOS********/
+    .img-perfil img{
+        width: 200px;
+    }
+
+    .img-perfil{
+        text-align: center;
+    }
+
+    .lista-contatos ul li{
+        margin-left: -40px;
+        font-size: 0.6em;
+    }
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .name h1 {
+        font-size: 3em;
+    }
+
+    .name span {
+        font-size: 3em ;
+    }
+
+    #quem-sou-eu p{
+        margin-top: 20px;
+        width: 400px;
+        font-size: 0.8em ;
+        font-weight: bold;
+        margin-left: 160px;
+    }
+
+    .redes ul{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .redes li{
+        display: inline-flex;
+    }
+
+    /*******HABILIDADES*******/
+    .titulo h3{
+        font-size: 1.3em;
+    }
+
+    .tipo h3{
+        font-size: 1.2em;
+    }
+
+    .tipo img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    /*********PROJETOS******/
+    .titulo p{
+        font-size: 0.9em;
+    }
+
+    .imagens ul{
+        display: flex;   
+    }
+
+    .imagens li img{
+        width: 100px;
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+
+    .imagens img{
+        border-radius: 5px;
+        margin-left: -10px;
+    }
+
+    #trocarimg{
+        
+        width: 100%;
+    }
+
+
+    /******CONTATOS********/
+    .img-perfil img{
+        width: 200px;
+    }
+
+    .img-perfil{
+        text-align: center;
+    }
+
+    .lista-contatos ul li{
+        margin-left: -40px;
+        font-size: 0.8em;
+    }
+
+}
+
+    
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .name h1 {
+        font-size: 4em;
+    }
+
+    .name span {
+        font-size: 4em ;
+    }
+
+    #quem-sou-eu p{
+        margin-top: 20px;
+        width: 400px;
+        font-size: 1em ;
+        font-weight: bold;
+        margin-left: 400px;
+    }
+
+    
+
+    .redes ul{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+
+    /*******HABILIDADES*******/
+    .titulo h3{
+        font-size: 1.3em;
+    }
+
+    .tipo h3{
+        font-size: 1.2em;
+    }
+
+    .tipo img{
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+
+    .tipo p{
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
+    /*********PROJETOS******/
+    .titulo p{
+        font-size: 1em;
+    }
+
+
+    .imagens li img{
+        width: 170px;
+    }
+
+    .imagens img{
+        border-radius: 5px;
+        margin-left: -100px;
+    }
+
+    #trocarimg{
+        width: 110%;
+    }
+
+
+    /******CONTATOS********/
+    .img-perfil img{
+        width: 250px;
+    }
+
+    .img-perfil{
+        text-align: center;
+    }
+
+    .lista-contatos ul li{
+        margin-left: -40px;
+        font-size: 1em;
+    }
+
+ 
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .name h1 {
+        font-size: 4em;
+    }
+
+    .name span {
+        font-size: 4em ;
+    }
+
+    #quem-sou-eu p{
+        margin-top: 20px;
+        width: 400px;
+        font-size: 1em ;
+        font-weight: bold;
+        margin-left: 400px;
+    }
+
+    
+
+    .redes ul{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+
+    /*******HABILIDADES*******/
+    .titulo h3{
+        font-size: 1.3em;
+    }
+
+    .tipo h3{
+        font-size: 1.2em;
+    }
+
+    .tipo img{
+        margin-bottom: 10px;
+        width: 100px;
+    }
+
+
+    .tipo p{
+        font-size: 1em;
+        margin: 0 auto;
+    }
+
+    /*********PROJETOS******/
+    .titulo p{
+        font-size: 1em;
+    }
+
+
+    .imagens li img{
+        width: 150px;
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+
+    .imagens img{
+        border-radius: 5px;
+        margin-left: -10px;
+    }
+
+    #trocarimg{
+        width: 105%;
+    }
+
+
+    /******CONTATOS********/
+    .img-perfil img{
+        width: 250px;
+    }
+
+    .img-perfil{
+        text-align: center;
+    }
+
+    .lista-contatos ul li{
+        margin-left: -40px;
+        font-size: 1em;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    
+
+}
+
+
+    
+
